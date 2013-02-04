@@ -1,0 +1,27 @@
+<HTML> 
+<HEAD> 
+        <TITLE>Tic Tac Toe</TITLE> 
+<link rel="stylesheet" type="text/css" href="loginmodule.css">
+</HEAD>
+<BODY background="img01.jpg">
+<form name ="subscribe" id="subscribe_frm" action="index.html" method="get"> 
+<center>
+<b><font color="red" size="3">Choose your pointer  </b><BR>  <input type = radio name = "pointer" id="pointer"
+ value = "x"  checked>x
+ 
+<input type = radio name = "pointer" id="pointer" value = "0" >0 <P> 
+ 
+<b>Wanna play first or second? </b> <BR> 
+<input type = radio name = turn id=turn checked value="0">first
+<input type = radio name = turn id=turn value="1"> second<P> 
+ 
+<b>Choose your playing level </b> <BR> <input type = radio name = level value="0">easy
+ <input type = radio name = level id=level value="1" checked >medium
+ <input type = radio name = level id=level value="2">hard <P> 
+ 
+<input type = "submit" name = bstart id=bstart value = "  start  " onclick = startIt()//> 
+<input type = button name = bclear id=bclear value = "  clear " onclick = clearMatrix()> 
+</center>
+</form>
+</BODY>
+</HTML>
